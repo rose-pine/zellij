@@ -1,0 +1,15 @@
+themes {
+	$id {
+		bg "$base"
+		fg "$text"
+		red "$love"
+		green "$pine"
+		blue "$foam"
+		yellow "$gold"
+		magenta "$iris"
+		orange "#fe640b"
+		cyan "$rose"
+		black "$overlay"
+		white "$text"
+	}
+}
