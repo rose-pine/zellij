@@ -4,6 +4,17 @@
   "description": "Soho vibes for Zellij (rose-pine palette installer for zellij)",
   "type": "module",
   "main": "main.mjs",
+  "files": [
+    "main.mjs",
+    "readme.md",
+    "package.json",
+    "template.kdl",
+    ".gitignore",
+    "dist"
+  ],
+  "bin": {
+    "rose-pine-zellij-setup": "main.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
