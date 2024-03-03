@@ -16,4 +16,12 @@
     "email": "mikoloism@gmail.com"
   },
   "license": "",
+  "dependencies": {
+    "commander": "12.0.0",
+    "inquirer": "9.2.15",
+    "node-fetch": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "9.0.7"
+  }
 }
