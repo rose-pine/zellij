@@ -1,0 +1,39 @@
+{
+  "name": "@rose-pine/zellij-setup",
+  "version": "1.0.0",
+  "description": "Soho vibes for Zellij (rose-pine palette installer for zellij)",
+  "type": "module",
+  "main": "main.mjs",
+  "files": [
+    "main.mjs",
+    "readme.md",
+    "package.json",
+    "template.kdl",
+    ".gitignore",
+    "dist"
+  ],
+  "bin": {
+    "rose-pine-zellij-setup": "main.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rose-pine",
+    "zellij"
+  ],
+  "author": {
+    "name": "mikoloism",
+    "email": "mikoloism@gmail.com"
+  },
+  "license": "",
+  "dependencies": {
+    "chalk": "5.3.0",
+    "commander": "12.0.0",
+    "inquirer": "9.2.15",
+    "node-fetch": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "9.0.7"
+  }
+}
