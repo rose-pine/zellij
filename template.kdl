@@ -1,6 +1,6 @@
 themes {
 	$id {
-		bg "$base"
+		bg "$highlightMed"
 		fg "$text"
 		red "$love"
 		green "$pine"
