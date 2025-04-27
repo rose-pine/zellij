@@ -1,15 +1,120 @@
 themes {
-	$id {
-		bg "$highlightMed"
-		fg "$text"
-		red "$love"
-		green "$pine"
-		blue "$foam"
-		yellow "$gold"
-		magenta "$iris"
-		orange "#fe640b"
-		cyan "$rose"
-		black "$overlay"
-		white "$text"
-	}
+  $id {
+    text_unselected {
+      base $text
+      background $highlightLow
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    text_selected {
+      base $text
+      background $highlightMed
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    ribbon_selected {
+      base $highlightLow
+      background $pine
+      emphasis_0 $gold
+      emphasis_1 $rose
+      emphasis_2 $iris
+      emphasis_3 $foam
+    }
+    ribbon_unselected {
+      base $base
+      background $text
+      emphasis_0 $gold
+      emphasis_1 $rose
+      emphasis_2 $iris
+      emphasis_3 $foam
+    }
+    table_title {
+      base $pine
+      background 0 0 0
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    table_cell_selected {
+      base $text
+      background $highlightMed
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    table_cell_unselected {
+      base $text
+      background $highlightLow
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    list_selected {
+      base $text
+      background $highlightMed
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    list_unselected {
+      base $text
+      background $highlightLow
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $pine
+      emphasis_3 $iris
+    }
+    frame_selected {
+      base $pine
+      background 0 0 0
+      emphasis_0 $rose
+      emphasis_1 $foam
+      emphasis_2 $iris
+      emphasis_3 0 0 0
+    }
+    frame_highlight {
+      base $rose
+      background 0 0 0
+      emphasis_0 $rose
+      emphasis_1 $rose
+      emphasis_2 $rose
+      emphasis_3 $rose
+    }
+    exit_code_success {
+      base $pine
+      background 0 0 0
+      emphasis_0 $foam
+      emphasis_1 $highlightLow
+      emphasis_2 $iris
+      emphasis_3 $pine
+    }
+    exit_code_error {
+      base $love
+      background 0 0 0
+      emphasis_0 $gold
+      emphasis_1 0 0 0
+      emphasis_2 0 0 0
+      emphasis_3 0 0 0
+    }
+    multiplayer_user_colors {
+      player_1 $iris
+      player_2 $pine
+      player_3 $rose
+      player_4 $gold
+      player_5 $foam
+      player_6 $love
+      player_7 0 0 0
+      player_8 0 0 0
+      player_9 0 0 0
+      player_10 0 0 0
+    }
+  }
 }
