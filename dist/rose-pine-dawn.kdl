@@ -116,5 +116,23 @@ themes {
       player_9 0 0 0
       player_10 0 0 0
     }
+    terminal_colors {
+      black 242 233 222
+      red 180 99 122
+      green 40 105 131
+      yellow 234 157 52
+      blue 86 148 159
+      magenta 144 122 169
+      cyan 215 130 126
+      white 87 82 121
+      bright_black 152 147 165
+      bright_red 180 99 122
+      bright_green 40 105 131
+      bright_yellow 234 157 52
+      bright_blue 86 148 159
+      bright_magenta 144 122 169
+      bright_cyan 215 130 126
+      bright_white 87 82 121
+    }
   }
 }
